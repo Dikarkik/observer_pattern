@@ -9,19 +9,19 @@ In this example we want decoupled code for a Player that Jumps, so we made a com
 ![Diagram subscribe](https://github.com/karodev3/observer_pattern/blob/assets/Diagram-subscribe.jpg?raw=true)
 
 
-2. Invoke that event when the Space bar key is pressed, we do this with the component InputManager, calling a method inside the EventManager wish Invoke the 'OnPlayerJump' event.
+2. Invoke that event when the Space bar key is pressed, we do this since the component InputManager calling a method inside the EventManager which Invoke the 'OnPlayerJump' event.
 
 ![Diagram invoke](https://github.com/karodev3/observer_pattern/blob/assets/Diagram-invoke.jpg?raw=true)
 
 ## Documentation:
-- Events in Unity: https://youtu.be/OuZrhykVytg
 - Observer pattern: https://refactoring.guru/design-patterns/observer
 - Delegates, events, actions: https://answers.unity.com/questions/1739085/when-to-decide-between-using-a-delegate-event-or-a.html
-- Delegates: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
-- Actions: https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netcore-3.1
 - Events: https://docs.microsoft.com/en-us/dotnet/standard/events/
+- Actions: https://docs.microsoft.com/en-us/dotnet/api/system.action?view=netcore-3.1
+- Delegates: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
+- Events in Unity: https://youtu.be/OuZrhykVytg
 
-Special thanks to [@AndersenCastaneda](https://github.com/AndersenCastaneda) to introduce me to the topic.
+Special thanks to [@AndersenCastaneda](https://github.com/AndersenCastaneda) for introduced me to the topic.
 
 ## About me:
 Unity Developer. Passionate about: virtual reality, casual games, multiplayer.
